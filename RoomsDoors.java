@@ -1,6 +1,8 @@
+import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
-
+//rooms and doors interface that accesses buttons by extending the switch interface
 public interface RoomsDoors extends Switch{
+    //Generating rectangle shapes used to represent rooms
     Rectangle rectangleOne = new Rectangle(100, 50, 250, 270);
     Rectangle rectangleTwo = new Rectangle(350, 210, 240, 60);
     Rectangle rectangleThree = new Rectangle(350, 50, 120, 160);
@@ -8,4 +10,13 @@ public interface RoomsDoors extends Switch{
     Rectangle rectangleFive = new Rectangle(590, 50, 110, 220);
     Rectangle rectangleSix = new Rectangle(350, 270, 150, 200);
     Rectangle rectangleSeven = new Rectangle(500, 270, 200, 200);
+
+    //Declaring Lines used to indicate doors
+    Line doorOne = new Line(200, 320, 125, 320);
+    Line doorTwo = new Line(350, 260, 350, 240);
+    Line doorThree = new Line(400, 210, 370, 210);
+    Line doorFour = new Line(510, 210, 490, 210);
+    Line doorFive = new Line(590, 260, 590, 240);
+    Line doorSix = new Line(400, 270, 370, 270);
+    Line doorSeven = new Line(520, 270, 510, 270);
 }
