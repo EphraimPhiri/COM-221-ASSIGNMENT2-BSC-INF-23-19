@@ -1,6 +1,7 @@
 import javafx.scene.control.Button;
 //interface to create buttons and their labels to be used in turning bulbs on*/off
 public interface Switch {
+    //creation of buttons with their names or tags or labels
     Button button1 = new Button("All rooms ON/OFF");
       Button button2 = new Button("room1&2 ON/OFF");
       Button button3 = new Button("room1 ON/OFF");

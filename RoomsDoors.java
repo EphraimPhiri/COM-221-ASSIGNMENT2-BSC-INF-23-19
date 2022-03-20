@@ -12,11 +12,11 @@ public interface RoomsDoors extends Switch{
     Rectangle rectangleSeven = new Rectangle(500, 270, 200, 200);
 
     //Declaring Lines used to indicate doors
-    Line doorOne = new Line(200, 320, 125, 320);
-    Line doorTwo = new Line(350, 260, 350, 240);
+    Line doorOne = new Line(280, 320, 195, 320);
+    Line doorTwo = new Line(350, 250, 350, 220);
     Line doorThree = new Line(400, 210, 370, 210);
-    Line doorFour = new Line(510, 210, 490, 210);
-    Line doorFive = new Line(590, 260, 590, 240);
+    Line doorFour = new Line(520, 210, 490, 210);
+    Line doorFive = new Line(590, 250, 590, 220);
     Line doorSix = new Line(400, 270, 370, 270);
-    Line doorSeven = new Line(520, 270, 510, 270);
+    Line doorSeven = new Line(535, 270, 510, 270);
 }
